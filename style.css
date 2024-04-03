@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(169, 233, 255);
+}
+/* for marquee */
+.mark{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* For navigation bar */
+.jockey ul li{
+    display: inline-block;  
+}
+.jockey ul li a{ 
+    display: block;
+    padding: 10px 25px;
+    color: #333;
+    text-decoration: none;
+}
+.jockey ul li a:hover{ 
+    color: #fff;
+    background: #939393;
+    text-decoration-line: underline;
+}
+.jockey ul{
+    background-color: rgb(244, 219, 139);
+    border: 2px black solid;
+}
+/* In mainpage.html */
+.image{
+    float: right;
+    padding-right: 7%;
+    padding-top: 4%;
+}
+.maintext{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    position: relative;
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 4%;
+}
+/* About.html */
+.bio h2{
+    border: 3px #a0a0a0 solid;
+    background-color: rgb(229, 227, 239);
+    /* position: absolute; */
+    text-align: center;
+    padding: 5px;
+}
+.bio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.skills{
+    font-style: oblique;
+}
+.skills h3{
+    font-style: normal;
+}
+/* Conatct.html */
+.contacts{
+    background-color: rgb(229, 227, 239);
+    width:fit-content;
+    padding: 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+    position: relative;
+    left:33%;
+    margin-bottom: 10px;
+}
+.forms1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pdetails p{
+    padding-bottom: 0px;
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forms1 table{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.pdetails table{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Footer */
+.last{
+    background-color: rgb(6, 58, 247);
+    color:white;
+    padding: 10px;
+    text-align: center;
+    width: 98%; 
+    position: absolute;
+    float: inline-start;
+}
+/*Resume.html*/
+.tableinfo{
+    border: #c6c2c2 solid 4px;
+    position:relative;
+    left:30%;
+    background-color: rgb(229, 227, 239);
+    padding:10px;    
+    padding-top: 3px;
+    padding-left: 40px;
+    width:40%;
+    margin-bottom: 15px;
+}
+.tableinfo h1{
+    text-align: center;
+    color:rgb(112, 18, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
